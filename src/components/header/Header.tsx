@@ -1,12 +1,12 @@
-import IVCD from "../assets/ivcd_icon.svg"
 import './header.module.css'
+import { ReactComponent as Logo } from '../../'
 import {List} from '@phosphor-icons/react'
 
 const Header = () => {
   return (
     <div className="header">
         <div className="header-title">
-            <img src={IVCD}/>
+            <Logo className='img'/>
             <h2>Igreja Vinde e Celebrai a Deus</h2>
         </div>
         <div>
