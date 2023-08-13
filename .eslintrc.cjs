@@ -2,7 +2,7 @@ module.exports = {
   parserOptions: {
     ecmaVersion: 'latest',
     sourceType: 'module',
-    project: ['./tsconfig.json', './tsconfig.node.json'],
+    project: ['./tsconfig.json', './tsconfig.node.json', 'tailwind.config.js'],
     tsconfigRootDir: __dirname,
    },
   root: true,
@@ -21,6 +21,7 @@ module.exports = {
     'react-refresh/only-export-components': [
       'warn',
       { allowConstantExport: true },
+      {allowJS: true}
     ],
   },
 }

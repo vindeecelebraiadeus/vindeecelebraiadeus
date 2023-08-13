@@ -1,14 +1,20 @@
-import "./App.css"
-import Header from "./components/header/Header"
-import Programacao from "./components/programacao/Programacao"
+import "./App.css";
+import Header from "./components/header/Header";
+import Oracao from "./components/oracao/Oracao";
+import Playlist from "./components/playlist/Playlist";
+import Programacao from "./components/programacao/Programacao";
+import Sobre from "./components/sobre/Sobre";
 
 const App = () => {
   return (
     <div className="app">
-      <Header/>
-      <Programacao/>
+      <Header />
+      <Programacao />
+      <Sobre />
+      <Playlist />
+      <Oracao />
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
