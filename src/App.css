@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond&display=swap');
+:root {
+    --ivcd-gold: #AB8A00;
+    --ivcd-dark-blue:#03008E;
+    --ivcd-light-blue:#D0CFFF;
+    --ivcd-yellow: #F5C709;
+    --ivcd-title-yellow: #FFCF0A;
+    --ivcd-gray: #D9D9D9;
+    --ivcd-white: #FFFFFF;
+    --ivcd-black: #000000;
+    font-family: 'EB Garamond', serif;
+}
+
+.app {
+    background-color: var(--ivcd-light-blue);
+    color: var(--ivcd-gold);
+    width: 100vw;
+}
+
+@media (prefers-color-scheme: dark) {
+    .app{
+        background-color: var(--ivcd-black);
+        color: var(--ivcd-white);
+    }
+}

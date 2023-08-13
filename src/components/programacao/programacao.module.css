@@ -1,0 +1,16 @@
+.programacao {
+    max-width: 350px;
+}
+
+.programacao h2 {
+    margin: 1rem;
+}
+
+.programacao h3 {
+    margin: 0.5rem;
+}
+
+.cultos{
+    display: flex;
+    justify-content: space-between;
+}
