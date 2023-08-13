@@ -1,5 +1,5 @@
 import './header.module.css'
-import { ReactComponent as Logo } from '../../assets/logo.svg'
+import { ReactComponent as Logo } from './logo.svg'
 import {List} from '@phosphor-icons/react'
 
 const Header = () => {
