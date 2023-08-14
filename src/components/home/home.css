@@ -19,38 +19,39 @@
   background-color: rgba(200, 199, 255, 0.247);
   overflow: hidden;
 }
-@media screen and (max-width:320px) {
-  .blur{
-    height: 53%;
+
+@media screen and (max-width: 320px) {
+  .blur {
+    height: 45%;
   }
 }
-@media screen and (min-width:321px) and (max-width:375px) {
-  .blur{
+@media screen and (min-width: 321px) and (max-width: 375px) {
+  .blur {
     height: 60%;
   }
 }
-@media screen and (min-width:376px) and (max-width:425px) {
-  .blur{
+@media screen and (min-width: 376px) and (max-width: 425px) {
+  .blur {
     height: 65%;
   }
 }
-@media screen and (min-width:426px) and (max-width:768px) {
-  .blur{
+@media screen and (min-width: 426px) and (max-width: 768px) {
+  .blur {
     height: 100%;
   }
 }
-@media screen and (min-width:769px) and (max-width:1024px) {
-  .blur{
+@media screen and (min-width: 769px) and (max-width: 1024px) {
+  .blur {
     height: 125%;
   }
 }
-@media screen and (min-width:1025px) and (max-width:1440px) {
-  .blur{
+@media screen and (min-width: 1025px) and (max-width: 1440px) {
+  .blur {
     height: 117%;
   }
 }
-@media screen and (min-width:1441px) and (max-width:2560px) {
-  .blur{
+@media screen and (min-width: 1441px) and (max-width: 2560px) {
+  .blur {
     height: 110%;
   }
 }
