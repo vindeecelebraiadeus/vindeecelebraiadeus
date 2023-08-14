@@ -22,7 +22,7 @@
 
 @media screen and (max-width: 320px) {
   .blur {
-    height: 45%;
+    height: 35%;
   }
 }
 @media screen and (min-width: 321px) and (max-width: 375px) {
