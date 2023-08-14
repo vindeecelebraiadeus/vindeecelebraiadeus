@@ -1,3 +1,8 @@
-.oracao{
-  height: 700px;
+.oracao {
+  margin: auto;
+}
+
+.prayer {
+  margin: 1rem;
+  color: var(--ivcd-gold);
 }

@@ -14,13 +14,25 @@ const Header = () => {
         <div className="menu">
           <List size={32} />
           <div className="menu-content">
+          <div>
+              <Link
+              className="links"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}
+              >
+                Home
+              </Link>
+            </div>
             <div>
               <Link
               className="links"
-                to="target"
+                to="programacao"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-70}
                 duration={500}
               >
                 Programação
@@ -29,40 +41,49 @@ const Header = () => {
             <div>
               <Link 
               className="links"
-                to="target"
+                to="sobre"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-70}
                 duration={500}>Sobre a IVCD</Link>
             </div>
             <div>
               <Link 
               className="links"
-                to="target"
+                to="playlist"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-70}
                 duration={500}>Playlist do Youtube</Link>
             </div>
             <div>
               <Link 
               className="links"
-                to="target"
+                to="oracao"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-70}
                 duration={500}>Peça uma oração</Link>
             </div>
           </div>
         </div>
         <div className="menudesktop">
+        <div>
+            <Link 
+            className="links"
+                to="home"
+                spy={true}
+                smooth={true}
+                offset={-70}
+                duration={500}>Home</Link>
+          </div>
           <div>
             <Link 
             className="links"
                 to="programacao"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-70}
                 duration={500}>Programação</Link>
           </div>
           <div>
@@ -71,7 +92,7 @@ const Header = () => {
                 to="sobre"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-70}
                 duration={500}>Sobre a IVCD</Link>
           </div>
           <div>
@@ -80,7 +101,7 @@ const Header = () => {
                 to="playlist"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-70}
                 duration={500}>Playlist do Youtube</Link>
           </div>
           <div>
@@ -89,7 +110,7 @@ const Header = () => {
                 to="oracao"
                 spy={true}
                 smooth={true}
-                offset={-100}
+                offset={-70}
                 duration={500}>Peça uma oração</Link>
           </div>
         </div>

@@ -1,5 +1,6 @@
 import "./App.css";
 import Header from "./components/header/Header";
+import Home from "./components/home/Home";
 import Oracao from "./components/oracao/Oracao";
 import Playlist from "./components/playlist/Playlist";
 import Programacao from "./components/programacao/Programacao";
@@ -9,6 +10,7 @@ const App = () => {
   return (
     <div className="app">
       <Header />
+      <Home/>
       <Programacao />
       <Sobre />
       <Playlist />

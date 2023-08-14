@@ -1,3 +1,7 @@
 .playlist {
-  height: 700px;
+  margin: auto;
+}
+.youtube {
+  margin: 1rem;
+  color: red;
 }
