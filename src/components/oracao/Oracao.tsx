@@ -1,13 +1,12 @@
 import "./oracao.css";
-import React, { useRef } from "react";
+import React, { useRef, MutableRefObject } from "react";
 import { HandsPraying } from "@phosphor-icons/react";
 import emailjs from "@emailjs/browser";
 
 const Oracao = () => {
-  const form = useRef<HTMLFormElement|null>(null);
+  const form = useRef<HTMLFormElement | string>("")
   const sendEmail = (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-
     emailjs
       .sendForm(
         import.meta.env.VITE_YOUR_SERVICE_ID,
@@ -25,7 +24,7 @@ const Oracao = () => {
       );
   };
   return (
-    <form className="form-oracao" id="oracao" ref={form} onSubmit={sendEmail}>
+    <form className="form-oracao" id="oracao" ref={form as MutableRefObject<HTMLFormElement>} onSubmit={sendEmail}>
       <div className="ora flex items-center justify-center">
         <HandsPraying size={32} className="prayer" />
         <h2>Peça uma Oração</h2>
@@ -55,7 +54,6 @@ const Oracao = () => {
         <label htmlFor="message">Mensagem:</label>
         <textarea
           name="message"
-          id=""
           cols={30}
           rows={10}
           className="input-oracao"
