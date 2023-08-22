@@ -6,6 +6,7 @@
   --ivcd-yellow: #f5c709;
   --ivcd-title-yellow: #ffcf0a;
   --ivcd-gray: #d9d9d9;
+  --ivcd-light-gray: #f0eeee;
   --ivcd-white: #ffffff;
   --ivcd-black: #000000;
   font-family: "EB Garamond", serif;
@@ -15,7 +16,9 @@
   background-color: var(--ivcd-light-blue);
   color: var(--ivcd-gold);
   width: 100vw;
+  max-width: 100%;
   height: 100%;
+  margin: 0 auto;
 }
 
 .title-ivcd {

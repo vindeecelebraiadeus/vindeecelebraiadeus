@@ -7,7 +7,15 @@
     The new CSS reset - version 1.8.5 (last updated 14.6.2023)
     GitHub page: https://github.com/elad2412/the-new-css-reset
 ***/
+#root{
+    background-color: black;
+}
 
+@media (prefers-color-scheme: light){
+    #root{
+        background-color: #d0cfff;
+    }
+}
 /*
     Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property
     - The "symbol *" part is to solve Firefox SVG sprite bug

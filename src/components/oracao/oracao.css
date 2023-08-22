@@ -1,8 +1,41 @@
-.oracao {
-  margin: auto;
+.ora {
+  padding-top: 3rem;
+  padding-bottom: 2rem;
 }
-
 .prayer {
   margin: 1rem;
   color: var(--ivcd-gold);
+}
+
+.form-oracao{
+  background-color: var(--ivcd-light-gray);
+  min-width: 250px;
+  margin: 2rem auto;
+  max-width: 1280px;
+}
+
+.input-oracao{
+  padding: 1rem 2rem;
+  background-color: var(--ivcd-gray);
+}
+.form-item{
+  margin: 2rem 3rem;
+}
+
+.button-form{
+  background-color: var(--ivcd-dark-blue);
+  color: var(--ivcd-gold);
+  padding: 1rem 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+@media (prefers-color-scheme: dark){
+  .form-oracao{
+    color: var(--ivcd-black);
+    background-color: var(--ivcd-gray);
+  }
+  .input-oracao{
+    background-color: var(--ivcd-light-gray);
+  }
 }
