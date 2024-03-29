@@ -1,0 +1,14 @@
+a {
+  border: 1px solid var(--gray-color-1);
+  text-decoration: none;
+  color: var(--gray-color-1);
+  font-weight: 500;
+  padding: 0.3em 1em;
+  width: 8em;
+  text-align: center;
+  align-self: flex-end;
+}
+p {
+  margin: 0;
+  font-size: 0.8em;
+}
