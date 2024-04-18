@@ -7,4 +7,22 @@
   background-size: cover;
   z-index: 1;
   display: block;
+  color: white;
+}
+.title {
+  width: 100vw;
+  height: 100vh;
+  background-color: transparent;
+  z-index: 1000;
+  top: 0;
+  left: 0;
+  color: white;
+  position: absolute;
+}
+.title h1 {
+  margin: 2.5em 1em;
+  font-weight: 400;
+  font-size: 3em;
+  -webkit-text-stroke-width: 0.015em;
+  -webkit-text-stroke-color: black;
 }
