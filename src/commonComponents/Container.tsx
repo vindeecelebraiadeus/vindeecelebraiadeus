@@ -1,8 +1,11 @@
-import { Props } from "../utils/types"
-export const Container = ({children}: Props) => {
+import { Outlet } from "react-router-dom"
+import { Navbar } from "./Navbar"
+
+export const Container = () => {
   return (
     <div className="container">
-      {children}
+      <Navbar/>
+      <Outlet/>
     </div>
   )
 }
